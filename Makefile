@@ -22,7 +22,7 @@ SRCS =	$(LIBFT_DIR)/ft_isalpha.c $(LIBFT_DIR)/ft_isdigit.c $(LIBFT_DIR)/ft_isaln
 		$(FT_PRINTF_DIR)/ft_printf.c $(FT_PRINTF_DIR)/ft_print_char.c $(FT_PRINTF_DIR)/ft_print_str.c \
 		$(FT_PRINTF_DIR)/ft_print_nbr.c $(FT_PRINTF_DIR)/ft_print_hexnbr.c $(FT_PRINTF_DIR)/ft_print_pointer.c \
 		$(FT_PRINTF_DIR)/ft_print_unsignednbr.c \
-		$(GNL_DIR)/get_next_line.c $(GNL_DIR)\get_next_line_utils.c
+		$(GNL_DIR)/get_next_line.c $(GNL_DIR)/get_next_line_utils.c
 
 OBJS = $(SRCS:.c=.o)
 NAME = libft.a
